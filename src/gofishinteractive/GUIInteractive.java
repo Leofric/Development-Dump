@@ -49,7 +49,7 @@ public class GUIInteractive {
 		//Container
 		container = new JPanel();
 		container.setLayout(frameLayout);
-		container.setBackground(Color.DARK_GRAY);
+		container.setBackground(Color.GRAY);
 		container.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -59,7 +59,7 @@ public class GUIInteractive {
 		//p2 hand
 		player2Hand = new JPanel();
 		player2Hand.setLayout(cardLayout);
-		player2Hand.setBackground(Color.DARK_GRAY);
+		player2Hand.setBackground(Color.GRAY);
 		player2Hand.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -69,7 +69,7 @@ public class GUIInteractive {
 		//p2 pairs
 		player2Pairs = new JPanel();
 		player2Pairs.setLayout(cardLayout);
-		player2Pairs.setBackground(Color.DARK_GRAY);
+		player2Pairs.setBackground(Color.GRAY);
 		player2Pairs.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -80,11 +80,11 @@ public class GUIInteractive {
 		player2Dialogue = new JTextField();
 		player2Dialogue.setEnabled(false);
 		player2Dialogue.setForeground(Color.WHITE);
-		player2Dialogue.setBackground(Color.DARK_GRAY);
+		player2Dialogue.setBackground(Color.GRAY);
 		player2Dialogue.setDisabledTextColor(Color.WHITE);
 		player2Dialogue.setHorizontalAlignment(JTextField.CENTER);
 		player2Dialogue.setFont(new Font("consolas", Font.PLAIN, 12));
-		player2Dialogue.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 5));
+		player2Dialogue.setBorder(BorderFactory.createLineBorder(Color.GRAY, 5));
 		player2Dialogue.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -95,11 +95,11 @@ public class GUIInteractive {
 		console = new JTextField();
 		console.setEnabled(false);
 		console.setForeground(Color.WHITE);
-		console.setBackground(Color.DARK_GRAY);
+		console.setBackground(Color.GRAY);
 		console.setDisabledTextColor(Color.WHITE);
 		console.setFont(new Font("consolas", Font.PLAIN, 12));
 		console.setHorizontalAlignment(JTextField.CENTER);
-		console.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 5));
+		console.setBorder(BorderFactory.createLineBorder(Color.GRAY, 5));
 		console.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -110,11 +110,11 @@ public class GUIInteractive {
 		player1Dialogue = new JTextField();
 		player1Dialogue.setEnabled(false);
 		player1Dialogue.setForeground(Color.WHITE);
-		player1Dialogue.setBackground(Color.DARK_GRAY);
+		player1Dialogue.setBackground(Color.GRAY);
 		player1Dialogue.setDisabledTextColor(Color.WHITE);
 		player1Dialogue.setHorizontalAlignment(JTextField.CENTER);
 		player1Dialogue.setFont(new Font("consolas", Font.PLAIN, 12));
-		player1Dialogue.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 5));
+		player1Dialogue.setBorder(BorderFactory.createLineBorder(Color.GRAY, 5));
 		player1Dialogue.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -124,7 +124,7 @@ public class GUIInteractive {
 		//p1 pairs
 		player1Pairs = new JPanel();
 		player1Pairs.setLayout(cardLayout);
-		player1Pairs.setBackground(Color.DARK_GRAY);
+		player1Pairs.setBackground(Color.GRAY);
 		player1Pairs.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
@@ -134,7 +134,7 @@ public class GUIInteractive {
 		//p1 hand
 		player1Hand = new JPanel();
 		player1Hand.setLayout(cardLayout);
-		player1Hand.setBackground(Color.DARK_GRAY);
+		player1Hand.setBackground(Color.GRAY);
 		player1Hand.addMouseListener(new MouseAdapter() { 
 			public void mousePressed(MouseEvent me) { 
 				GameInteractive.unlock();
